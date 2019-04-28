@@ -414,7 +414,8 @@ section.contact h3 {
 
 form {
     width: 180px;
-    margin: 45px auto;
+    margin: 0 auto;
+    padding: 45px 0;
 }
 
 .group {
@@ -520,7 +521,7 @@ label.active+.bar:before {
 
 .btn-box {
     text-align: center;
-    margin: 50px 0;
+    padding: 50px 0;
 }
 
 footer {
@@ -606,12 +607,10 @@ footer a {
     overflow-y: scroll;
 }
 
-.modal.active::-webkit-scrollbar {
+/* .modal.active::-webkit-scrollbar {
     width: 0px;
-    /* Remove scrollbar space */
     background: transparent;
-    /* Optional: just make scrollbar invisible */
-}
+} */
 
 .modal.active .gallery {
     display: flex;
